@@ -1,0 +1,23 @@
+
+# Dependências do Node.js
+node_modules/
+
+# Resultados e relatórios dos testes
+output/
+allure-results/
+allure-report/
+playwright-report/
+test-results/
+
+# Arquivos de ambiente e credenciais
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Arquivos temporários e do sistema
+.DS_Store
+Thumbs.db
